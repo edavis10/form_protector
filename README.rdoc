@@ -1,11 +1,9 @@
-FormProtector
-=============
+= FormProtector
 
 FormProtector will remind users, via JavaScript, to submit their forms before navigating away from a page.
 
 
-Example
-=======
+== Example
 
 Include the FormProtector JavaScript by adding <tt>javascript_include_form_protector</tt> to your layout.  Then use <tt>protect_form</tt> in your view to protect the form.
 
