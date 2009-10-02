@@ -7,6 +7,13 @@ FormProtector will remind users, via JavaScript, to submit their forms before na
 
 Include the FormProtector JavaScript by adding <tt>javascript_include_form_protector</tt> to your layout.  Then use <tt>protect_form</tt> in your view to protect the form.
 
+A plain form with the id of 'my_form_id'.
+
     <%= protect_form('my_form_id') %>
+
+A form_for form:
+
+    <%= protect_form(dom_id(@record, :edit)) %>
+
 
 Copyright (c) 2009 Eric Davis, Little Stream Software, released under the MIT license
